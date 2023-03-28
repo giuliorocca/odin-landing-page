@@ -25,6 +25,13 @@ body{
     padding: 8px 30px 8px 30px;
 }
 
+.yellow-underline{
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #FD9B24;
+    text-decoration-thickness: 2.5px;
+}
+
 /* Flexboxes */
 
 .wrapper{
@@ -32,7 +39,9 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 1100px;
-    margin: auto;
+    margin: 0 auto 0 auto;  /* centers the div horizontally on the page */
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .header{
@@ -66,6 +75,8 @@ ul.menu-style{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;                /* not working */
+    flex-wrap: wrap;        /* not working */
     background: #1F2937;
     margin-top: 80px;
 }
@@ -75,7 +86,7 @@ ul.menu-style{
     flex-direction: column;
     align-items: left;
     width: 500px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .first-block-right{
