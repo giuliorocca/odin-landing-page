@@ -16,6 +16,12 @@ body{
     color: #F9FAF8;
 }
 
+.second-block-top-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
 .sign-up-button{
     font-size: 18px;
     font-weight: 800px;
@@ -30,6 +36,14 @@ body{
     text-underline-offset: 8px;
     text-decoration-color: #FD9B24;
     text-decoration-thickness: 2.5px;
+}
+
+img.divisions {
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 16px;
 }
 
 /* Flexboxes */
@@ -93,4 +107,31 @@ ul.menu-style{
     display: flex;
     align-items: center;
     margin-left: 80px;
+}
+
+.second-block{
+    background-color: #F9FAF8;
+}
+
+.second-block-top-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px 60px 0px;
+    color: black;
+}
+
+.second-block-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.second-block-picture-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
 }
