@@ -1,0 +1,85 @@
+/* Styling */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #1F2937;    
+}
+
+.menu, .small-message{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.big-message{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.sign-up-button{
+    font-size: 18px;
+    font-weight: 800px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 8px 30px 8px 30px;
+}
+
+/* Flexboxes */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1100px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1F2937;
+    margin-top: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+ul.menu-style{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0px;
+}
+
+.first-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+    margin-top: 80px;
+}
+
+.first-block-left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 500px;
+    gap: 20px;
+}
+
+.first-block-right{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
