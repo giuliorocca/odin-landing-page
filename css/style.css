@@ -1,8 +1,7 @@
-/* Styling */
+/* styling */
 
 body{
-    font-family: 'Roboto', sans-serif;
-    background: #1F2937;    
+    font-family: 'Roboto', sans-serif; 
 }
 
 .menu, .small-message{
@@ -24,7 +23,7 @@ body{
 
 .sign-up-button{
     font-size: 18px;
-    font-weight: 800px;
+    font-weight: bold;
     color: #F9FAF8;
     background-color: #3882f6;
     border-radius: 10px;
@@ -40,10 +39,45 @@ body{
 
 img.divisions {
     border-radius: 15px;
+    align-self: center;
 }
 
 h3 {
     font-size: 16px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    }
+    
+.quote-author{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;    
+    }
+
+.fourth-block-big-text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.fourth-block-small-text{
+    font-size: 18px;
+    color: #E5E7EB;   
+}
+
+.bottom-button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    padding: 8px 30px 8px 30px;
 }
 
 /* Flexboxes */
@@ -52,17 +86,18 @@ h3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 1100px;
-    margin: 0 auto 0 auto;  /* centers the div horizontally on the page */
-    padding-left: 25px;
-    padding-right: 25px;
+}
+
+.first-block{
+    background: #1F2937;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1F2937;
     margin-top: 20px;
 }
 
@@ -85,17 +120,17 @@ ul.menu-style{
     margin: 0px;
 }
 
-.first-block{
+.intro{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;                /* not working */
-    flex-wrap: wrap;        /* not working */
+    flex: wrap; /* not working */
     background: #1F2937;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.first-block-left{
+.intro-left{
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -103,21 +138,24 @@ ul.menu-style{
     gap: 30px;
 }
 
-.first-block-right{
+.intro-right{
     display: flex;
     align-items: center;
-    margin-left: 80px;
 }
 
 .second-block{
     background-color: #F9FAF8;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .second-block-top-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 60px 0px 60px 0px;
+    margin: 0px 0px 60px 0px;
     color: black;
 }
 
@@ -134,4 +172,55 @@ ul.menu-style{
     justify-content: center;
     flex: 1;
     text-align: center;
+}
+
+.third-block{
+    background-color: #E5E7EB;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.fourth-block{
+    background-color: #F9FAF8;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.blue-container{
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 70px 50px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-block-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.fourth-block-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.fifth-block{
+    color: #F9FAF8;
+    font-size: 18px;
+    background-color: #1F2937;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
