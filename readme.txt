@@ -1,1 +1,1 @@
-Text and photos are partially from: https://avp.fandom.com/wiki/Weyland-Yutani_Corporation
+Text and photos are adapted partially from: https://avp.fandom.com/wiki/Weyland-Yutani_Corporation
