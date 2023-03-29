@@ -35,6 +35,11 @@ body{
     color: #3882f6;
 }
 
+.sign-up-button:active {
+    background-color:#F9FAF8;
+    color: black;
+}
+
 .yellow-underline{
     text-decoration-line: underline;
     text-underline-offset: 8px;
@@ -93,6 +98,10 @@ h3 {
     color: #3882f6;
 }
 
+.bottom-button:active {
+    background-color:#F9FAF8;
+    color: black;
+}
 
 
 /* flexboxes */
@@ -137,7 +146,22 @@ ul.menu-style{
     margin: 0px;
 }
 
-ul.menu-style li:hover a {      /* not working */
+ul.menu-style li a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.menu-style li a:hover {
+    color : #FD9B24;
+ }
+
+.second-block-picture-containers a{
+    color: #3882f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.second-block-picture-containers a:hover {
     color : #FD9B24;
  }
 
