@@ -1,0 +1,1 @@
+Text and photos are partially from: https://avp.fandom.com/wiki/Weyland-Yutani_Corporation

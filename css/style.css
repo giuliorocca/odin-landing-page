@@ -30,6 +30,11 @@ body{
     padding: 8px 30px 8px 30px;
 }
 
+.sign-up-button:hover {
+    background-color:#F9FAF8;
+    color: #3882f6;
+}
+
 .yellow-underline{
     text-decoration-line: underline;
     text-underline-offset: 8px;
@@ -40,7 +45,7 @@ body{
 img.divisions {
     border-radius: 15px;
     align-self: center;
-}
+}   
 
 h3 {
     font-size: 24px;
@@ -50,8 +55,8 @@ h3 {
     font-size: 36px;
     font-style: italic;
     text-align: left;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 120px;
+    padding-left: 120px;
     }
     
 .quote-author{
@@ -83,7 +88,14 @@ h3 {
     padding: 8px 30px 8px 30px;
 }
 
-/* Flexboxes */
+.bottom-button:hover {
+    background-color:#F9FAF8;
+    color: #3882f6;
+}
+
+
+
+/* flexboxes */
 
 .wrapper{
     display: flex;
@@ -99,6 +111,7 @@ h3 {
 
 .header{
     display: flex;
+    flex-wrap: wrap;              
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
@@ -119,15 +132,20 @@ h3 {
 ul.menu-style{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
     margin: 0px;
 }
+
+ul.menu-style li:hover a {      /* not working */
+    color : #FD9B24;
+ }
 
 .intro{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: wrap; /* not working */
+    flex: wrap;                 
     background: #1F2937;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -144,6 +162,7 @@ ul.menu-style{
 .intro-right{
     display: flex;
     align-items: center;
+    justify-content: right;
 }
 
 .second-block{
@@ -162,7 +181,7 @@ ul.menu-style{
     color: black;
 }
 
-.second-block-containers {
+.second-block-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -198,6 +217,7 @@ ul.menu-style{
     border-radius: 8px;
     padding: 50px 70px 50px 70px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
