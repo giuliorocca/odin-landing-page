@@ -13,8 +13,14 @@ body{
 
 .first-block{
     background: #1F2937;
-    padding-left: 220px;
-    padding-right: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-block-contents, .second-block-contents, .third-block-contents, .fourth-block-contents, .fifth-block-contents{
+    width: 1250px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .header{
@@ -122,10 +128,10 @@ ul.menu-style li a{
 
 .second-block{
     background-color: #F9FAF8;
-    padding-left: 220px;
-    padding-right: 220px;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .second-block-top-text{
@@ -195,16 +201,16 @@ h3 {
 
 .third-block{
     background-color: #E5E7EB;
-    padding-left: 220px;
-    padding-right: 220px;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote{
     font-size: 36px;
     font-style: italic;
-    text-align: left;
+    text-align: center;
     padding-right: 120px;
     padding-left: 120px;
     }
@@ -212,8 +218,7 @@ h3 {
 .quote-author{
     font-size: 24px;
     font-weight: 700;
-    text-align: right;
-    padding-right: 140px;
+    text-align: center;
     padding-top: 20px;    
     }
 
@@ -221,10 +226,10 @@ h3 {
 
 .fourth-block{
     background-color: #F9FAF8;
-    padding-left: 220px;
-    padding-right: 220px;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .blue-container{
@@ -234,6 +239,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 25px;
 }
 
 .fourth-block-left{
@@ -288,8 +294,6 @@ h3 {
     color: #F9FAF8;
     font-size: 18px;
     background-color: #1F2937;
-    padding-left: 220px;
-    padding-right: 220px;
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
