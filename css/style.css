@@ -60,7 +60,7 @@ ul.menu-style li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;               /* not working as expected */  
+    flex-wrap: wrap; 
     background: #1F2937;
     margin-top: 60px;
     margin-bottom: 60px;
