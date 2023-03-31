@@ -60,7 +60,7 @@ ul.menu-style li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: wrap;               /* not working as expected */  
+    flex-wrap: wrap;               /* not working as expected */  
     background: #1F2937;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -136,7 +136,6 @@ ul.menu-style li a{
     color: black;
     font-size: 36px;
     font-weight: 800;
-    color: #F9FAF8;
 }
 
 .second-block-container {
